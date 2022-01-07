@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+}
+.container {
+    width: 1400px;
+    max-height: 100vh;
+}
+.header-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: white;
+}
+.nav-bar li {
+    display: inline;
+    padding: 20px;
+}
+.header-container h3 {
+    color: #FF385C;
+    text-align: left;
+}
+.form {
+    border-style: outset;
+    box-shadow: 2px solid gray;
+}
+.form p {
+    color: gray;
+}
+.location-bar {
+    order: 1;
+}
+.dates {
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=submit], input[type=submit], input[type=reset] {
+    background-color: red;
+}
+.hero-pic {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    z-index:-1;
+}
+img {
+    width: 80%;
+}
+.try-hosting-box {
+    background-color: black;
+    opacity: 75%;
+    color: white;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
